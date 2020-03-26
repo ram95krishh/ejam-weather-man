@@ -20,16 +20,6 @@ const config = merge(
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Credentials': 'true',
       },
-      proxy: {
-        '/api/weather': {
-          target: 'http://localhost:7600',
-          secure: false,
-          changeOrigin: true,
-          pathRewrite: {
-            '^/api/weather': '/weather',
-          },
-        },
-      },
     },
   },
 );
