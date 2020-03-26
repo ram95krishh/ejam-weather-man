@@ -9,8 +9,8 @@ class About extends Component {
   render() {
     return (
       <div>
-        <h1> Title </h1>
-        Description
+        <h1> WeatherMan </h1>
+        A weather finder app built on ReactJS, as a part of an assignment for Ejam.
       </div>
     );
   }
