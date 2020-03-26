@@ -1,0 +1,208 @@
+{
+  "data": [
+    {
+      "name": "Montgomery",
+      "zip": "36101"
+    },
+    {
+      "name": "Juneau",
+      "zip": "99801"
+    },
+    {
+      "name": "Phoenix",
+      "zip": "85001"
+    },
+    {
+      "name": "Little Rock",
+      "zip": "72201"
+    },
+    {
+      "name": "Sacremento",
+      "zip": "94203"
+    },
+    {
+      "name": "Denver",
+      "zip": "80201"
+    },
+    {
+      "name": "Hartford",
+      "zip": "06101"
+    },
+    {
+      "name": "Dover",
+      "zip": "19901"
+    },
+    {
+      "name": "Washington",
+      "zip": "20001"
+    },
+    {
+      "name": "Tallahassee",
+      "zip": "32301"
+    },
+    {
+      "name": "Atlanta",
+      "zip": "30301"
+    },
+    {
+      "name": "Honolulu",
+      "zip": "96801"
+    },
+    {
+      "name": "Boise",
+      "zip": "83701"
+    },
+    {
+      "name": "Springfield",
+      "zip": "62701"
+    },
+    {
+      "name": "Indianapolis",
+      "zip": "46201"
+    },
+    {
+      "name": "Des Moines",
+      "zip": "50301"
+    },
+    {
+      "name": "Topeka",
+      "zip": "66601"
+    },
+    {
+      "name": "Frankfort",
+      "zip": "40601"
+    },
+    {
+      "name": "Baton Rouge",
+      "zip": "70801"
+    },
+    {
+      "name": "Augusta",
+      "zip": "04330"
+    },
+    {
+      "name": "Annapolis",
+      "zip": "21401"
+    },
+    {
+      "name": "Boston",
+      "zip": "02108"
+    },
+    {
+      "name": "Lansing",
+      "zip": "48901"
+    },
+    {
+      "name": "St. Paul",
+      "zip": "55101"
+    },
+    {
+      "name": "Jackson",
+      "zip": "39201"
+    },
+    {
+      "name": "Jefferson City",
+      "zip": "65101"
+    },
+    {
+      "name": "Helena",
+      "zip": "59601"
+    },
+    {
+      "name": "Lincoln",
+      "zip": "68501"
+    },
+    {
+      "name": "Carson City",
+      "zip": "89701"
+    },
+    {
+      "name": "Concord",
+      "zip": "03301"
+    },
+    {
+      "name": "Trenton",
+      "zip": "08601"
+    },
+    {
+      "name": "Sante Fe",
+      "zip": "87501"
+    },
+    {
+      "name": "Albany",
+      "zip": "12201"
+    },
+    {
+      "name": "Raleigh",
+      "zip": "27601"
+    },
+    {
+      "name": "Bismarck",
+      "zip": "58501"
+    },
+    {
+      "name": "Columbus",
+      "zip": "43201"
+    },
+    {
+      "name": "Oklahoma City",
+      "zip": "73101"
+    },
+    {
+      "name": "Salem",
+      "zip": "93701"
+    },
+    {
+      "name": "Harrisburg",
+      "zip": "17101"
+    },
+    {
+      "name": "Providence",
+      "zip": "02901"
+    },
+    {
+      "name": "Columbia",
+      "zip": "29201"
+    },
+    {
+      "name": "Pierre",
+      "zip": "57501"
+    },
+    {
+      "name": "Nashville",
+      "zip": "37201"
+    },
+    {
+      "name": "Austin",
+      "zip": "73301"
+    },
+    {
+      "name": "Salt Lake City",
+      "zip": "84101"
+    },
+    {
+      "name": "Montpelier",
+      "zip": "05601"
+    },
+    {
+      "name": "Richmond",
+      "zip": "23218"
+    },
+    {
+      "name": "Olympia",
+      "zip": "98501"
+    },
+    {
+      "name": "Charleston",
+      "zip": "25301"
+    },
+    {
+      "name": "Madison",
+      "zip": "53701"
+    },
+    {
+      "name": "Cheyenne",
+      "zip": "82001"
+    }
+  ]
+}

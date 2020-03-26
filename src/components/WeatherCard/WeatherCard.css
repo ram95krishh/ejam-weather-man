@@ -1,0 +1,63 @@
+.card_day {
+  width: 20vw;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../../assets/images/day.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card_night {
+  width: 20vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../assets/images/night.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.day {
+  color: black;
+}
+
+.night {
+  color: white;
+}
+
+.cardContent {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.data {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.cardMedia {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nightCard {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.dayCard {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.description {
+  text-align: center;
+  padding: 0.5em 0;
+  margin: 0.5em 0;
+  background: rgba(255, 255, 255, 0.2);
+}

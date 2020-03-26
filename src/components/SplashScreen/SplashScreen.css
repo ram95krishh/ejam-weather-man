@@ -1,0 +1,24 @@
+.splashScreen {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.night {
+  color: white;
+}
+
+.day {
+  color: black;
+}
+
+.titleArea {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+.title {
+  font-size: large;
+}
