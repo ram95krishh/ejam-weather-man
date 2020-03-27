@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   Avatar, Card, CardHeader,
-  CardContent,
+  CardContent, CircularProgress,
 } from '@material-ui/core';
 import PropTypes from 'prop-types';
 
@@ -18,14 +18,17 @@ const LoadingCard = ({ title, scene }) => (
   <Card styleName={`card_${scene}`}>
     <CardHeader
       avatar={(
-        <Avatar aria-label="recipe">
+        <Avatar>
           {title.slice(0, 1)}
         </Avatar>
       )}
       title={title}
     />
-    <CardContent styleName={`cardContent ${scene}`}>
-      Loading...
+    <CardContent styleName={`loading ${scene}`}>
+      <div styleName="row">
+        Loading
+        <CircularProgress color="inherit" />
+      </div>
     </CardContent>
   </Card>
 );
@@ -48,7 +51,7 @@ const WeatherCard = ({ title, data, scene }) => {
     <Card styleName={`card_${scene}`}>
       <CardHeader
         avatar={(
-          <Avatar aria-label="recipe">
+          <Avatar>
             {title.slice(0, 1)}
           </Avatar>
         )}

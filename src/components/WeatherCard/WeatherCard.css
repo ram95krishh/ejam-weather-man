@@ -33,6 +33,10 @@
   align-items: center;
 }
 
+.loading {
+  height: 100%;
+}
+
 .data {
   display: flex;
   flex: 1;

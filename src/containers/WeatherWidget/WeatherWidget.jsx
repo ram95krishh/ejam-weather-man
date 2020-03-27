@@ -30,7 +30,6 @@ class WeatherWidget extends Component {
 
     return (
       <div styleName="weatherWidget">
-        <h1>Weather Man!</h1>
         <h3>Go ahead and select cities of your choice!</h3>
         <AutoComplete
           handleChange={this.handleOptionsChange}

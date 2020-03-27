@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import WeatherWidget from '../WeatherWidget';
+import PropTypes from 'prop-types';
 
-import SplashScreen from '../../components/SplashScreen/SplashScreen';
+import WeatherWidget from '../WeatherWidget';
+import SplashScreen from '../../components/SplashScreen';
 
 import './Home.css';
-
-const hours = new Date().getHours();
-const scene = (hours < 18 && hours > 5) ? 'day' : 'night';
 
 class Home extends Component {
   constructor(props) {
@@ -23,6 +20,8 @@ class Home extends Component {
 
   render() {
     const { splashScreen } = this.state;
+    const { scene } = this.props;
+
     return (
       <div styleName="screenArea">
         {splashScreen ? <SplashScreen scene={scene} />
@@ -33,10 +32,8 @@ class Home extends Component {
   }
 }
 
-const mapDispatchToProps = () => ({
-});
-
 Home.propTypes = {
+  scene: PropTypes.string.isRequired,
 };
 
-export default connect(null, mapDispatchToProps)(Home);
+export default Home;
